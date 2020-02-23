@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA20F1C42401EEC0000B3FC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1C32401EEC0000B3FC4 /* AppDelegate.swift */; };
+		FA20F1C62401EEC0000B3FC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1C52401EEC0000B3FC4 /* SceneDelegate.swift */; };
+		FA20F1CB2401EEC0000B3FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA20F1C92401EEC0000B3FC4 /* Main.storyboard */; };
+		FA20F1CE2401EEC0000B3FC4 /* AirTouch_Exercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1CC2401EEC0000B3FC4 /* AirTouch_Exercise.xcdatamodeld */; };
+		FA20F1D02401EEC4000B3FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA20F1CF2401EEC4000B3FC4 /* Assets.xcassets */; };
+		FA20F1D32401EEC4000B3FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA20F1D12401EEC4000B3FC4 /* LaunchScreen.storyboard */; };
+		FA20F1E32401F3AC000B3FC4 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1E22401F3AC000B3FC4 /* Transaction.swift */; };
+		FA20F1E52401F676000B3FC4 /* TransactionDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1E42401F676000B3FC4 /* TransactionDetailsVC.swift */; };
+		FA20F1E72401F699000B3FC4 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1E62401F699000B3FC4 /* ProductsVC.swift */; };
+		FA20F1E92401F7AB000B3FC4 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1E82401F7AB000B3FC4 /* Rate.swift */; };
+		FA20F1EB2401FD45000B3FC4 /* Graphable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1EA2401FD45000B3FC4 /* Graphable.swift */; };
+		FA20F1EE2401FDC5000B3FC4 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1ED2401FDC5000B3FC4 /* Vertex.swift */; };
+		FA20F1F124020082000B3FC4 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1F024020082000B3FC4 /* Stack.swift */; };
+		FA20F1F3240200E0000B3FC4 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1F2240200E0000B3FC4 /* AdjacencyList.swift */; };
+		FA20F1F5240201BF000B3FC4 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA20F1F4240201BF000B3FC4 /* Edge.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA20F1C02401EEC0000B3FC4 /* AirTouch Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirTouch Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA20F1C32401EEC0000B3FC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA20F1C52401EEC0000B3FC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA20F1CA2401EEC0000B3FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA20F1CD2401EEC0000B3FC4 /* AirTouch_Exercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirTouch_Exercise.xcdatamodel; sourceTree = "<group>"; };
+		FA20F1CF2401EEC4000B3FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA20F1D22401EEC4000B3FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA20F1D42401EEC5000B3FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA20F1E22401F3AC000B3FC4 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		FA20F1E42401F676000B3FC4 /* TransactionDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailsVC.swift; sourceTree = "<group>"; };
+		FA20F1E62401F699000B3FC4 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		FA20F1E82401F7AB000B3FC4 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		FA20F1EA2401FD45000B3FC4 /* Graphable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphable.swift; sourceTree = "<group>"; };
+		FA20F1ED2401FDC5000B3FC4 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		FA20F1F024020082000B3FC4 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		FA20F1F2240200E0000B3FC4 /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		FA20F1F4240201BF000B3FC4 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA20F1BD2401EEC0000B3FC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA20F1B72401EEBF000B3FC4 = {
+			isa = PBXGroup;
+			children = (
+				FA20F1C22401EEC0000B3FC4 /* AirTouch Exercise */,
+				FA20F1C12401EEC0000B3FC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA20F1C12401EEC0000B3FC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA20F1C02401EEC0000B3FC4 /* AirTouch Exercise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA20F1C22401EEC0000B3FC4 /* AirTouch Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				FA20F1EC2401FD71000B3FC4 /* Protocols */,
+				FA20F1E12401F3A0000B3FC4 /* Classes */,
+				FA20F1E02401F39A000B3FC4 /* Structs */,
+				FA20F1DB2401EFE7000B3FC4 /* ViewControllers */,
+				FA20F1C32401EEC0000B3FC4 /* AppDelegate.swift */,
+				FA20F1C52401EEC0000B3FC4 /* SceneDelegate.swift */,
+				FA20F1C92401EEC0000B3FC4 /* Main.storyboard */,
+				FA20F1CF2401EEC4000B3FC4 /* Assets.xcassets */,
+				FA20F1D12401EEC4000B3FC4 /* LaunchScreen.storyboard */,
+				FA20F1D42401EEC5000B3FC4 /* Info.plist */,
+				FA20F1CC2401EEC0000B3FC4 /* AirTouch_Exercise.xcdatamodeld */,
+			);
+			path = "AirTouch Exercise";
+			sourceTree = "<group>";
+		};
+		FA20F1DB2401EFE7000B3FC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA20F1E42401F676000B3FC4 /* TransactionDetailsVC.swift */,
+				FA20F1E62401F699000B3FC4 /* ProductsVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA20F1E02401F39A000B3FC4 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				FA20F1E22401F3AC000B3FC4 /* Transaction.swift */,
+				FA20F1E82401F7AB000B3FC4 /* Rate.swift */,
+				FA20F1ED2401FDC5000B3FC4 /* Vertex.swift */,
+				FA20F1F024020082000B3FC4 /* Stack.swift */,
+				FA20F1F4240201BF000B3FC4 /* Edge.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		FA20F1E12401F3A0000B3FC4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA20F1F2240200E0000B3FC4 /* AdjacencyList.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FA20F1EC2401FD71000B3FC4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FA20F1EA2401FD45000B3FC4 /* Graphable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA20F1BF2401EEC0000B3FC4 /* AirTouch Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA20F1D72401EEC5000B3FC4 /* Build configuration list for PBXNativeTarget "AirTouch Exercise" */;
+			buildPhases = (
+				FA20F1BC2401EEC0000B3FC4 /* Sources */,
+				FA20F1BD2401EEC0000B3FC4 /* Frameworks */,
+				FA20F1BE2401EEC0000B3FC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirTouch Exercise";
+			productName = "AirTouch Exercise";
+			productReference = FA20F1C02401EEC0000B3FC4 /* AirTouch Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA20F1B82401EEBF000B3FC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Leonard;
+				TargetAttributes = {
+					FA20F1BF2401EEC0000B3FC4 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = FA20F1BB2401EEC0000B3FC4 /* Build configuration list for PBXProject "AirTouch Exercise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA20F1B72401EEBF000B3FC4;
+			productRefGroup = FA20F1C12401EEC0000B3FC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA20F1BF2401EEC0000B3FC4 /* AirTouch Exercise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA20F1BE2401EEC0000B3FC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA20F1D32401EEC4000B3FC4 /* LaunchScreen.storyboard in Resources */,
+				FA20F1D02401EEC4000B3FC4 /* Assets.xcassets in Resources */,
+				FA20F1CB2401EEC0000B3FC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA20F1BC2401EEC0000B3FC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA20F1EB2401FD45000B3FC4 /* Graphable.swift in Sources */,
+				FA20F1CE2401EEC0000B3FC4 /* AirTouch_Exercise.xcdatamodeld in Sources */,
+				FA20F1F5240201BF000B3FC4 /* Edge.swift in Sources */,
+				FA20F1EE2401FDC5000B3FC4 /* Vertex.swift in Sources */,
+				FA20F1C42401EEC0000B3FC4 /* AppDelegate.swift in Sources */,
+				FA20F1C62401EEC0000B3FC4 /* SceneDelegate.swift in Sources */,
+				FA20F1F3240200E0000B3FC4 /* AdjacencyList.swift in Sources */,
+				FA20F1E92401F7AB000B3FC4 /* Rate.swift in Sources */,
+				FA20F1F124020082000B3FC4 /* Stack.swift in Sources */,
+				FA20F1E72401F699000B3FC4 /* ProductsVC.swift in Sources */,
+				FA20F1E52401F676000B3FC4 /* TransactionDetailsVC.swift in Sources */,
+				FA20F1E32401F3AC000B3FC4 /* Transaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA20F1C92401EEC0000B3FC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA20F1CA2401EEC0000B3FC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA20F1D12401EEC4000B3FC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA20F1D22401EEC4000B3FC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA20F1D52401EEC5000B3FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA20F1D62401EEC5000B3FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA20F1D82401EEC5000B3FC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SS7433F74;
+				INFOPLIST_FILE = "AirTouch Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonard.AirTouch-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA20F1D92401EEC5000B3FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SS7433F74;
+				INFOPLIST_FILE = "AirTouch Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Leonard.AirTouch-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA20F1BB2401EEC0000B3FC4 /* Build configuration list for PBXProject "AirTouch Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA20F1D52401EEC5000B3FC4 /* Debug */,
+				FA20F1D62401EEC5000B3FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA20F1D72401EEC5000B3FC4 /* Build configuration list for PBXNativeTarget "AirTouch Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA20F1D82401EEC5000B3FC4 /* Debug */,
+				FA20F1D92401EEC5000B3FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA20F1CC2401EEC0000B3FC4 /* AirTouch_Exercise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA20F1CD2401EEC0000B3FC4 /* AirTouch_Exercise.xcdatamodel */,
+			);
+			currentVersion = FA20F1CD2401EEC0000B3FC4 /* AirTouch_Exercise.xcdatamodel */;
+			path = AirTouch_Exercise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA20F1B82401EEBF000B3FC4 /* Project object */;
+}
