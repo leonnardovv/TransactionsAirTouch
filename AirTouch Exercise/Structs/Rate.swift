@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct Rate: Codable{
+    
+    let from: String
+    let to: String
+    var rate: String
+
+}
+

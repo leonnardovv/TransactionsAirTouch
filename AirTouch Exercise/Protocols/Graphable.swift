@@ -6,6 +6,7 @@
 //  Copyright © 2020 Leonard. All rights reserved.
 //
 
+import Foundation
 
 public protocol Graphable{
     
